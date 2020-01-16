@@ -4,7 +4,7 @@
   "description": "Imports old Wordpress accounts to the new Firebase-powered authentication backend.",
   "main": "src/index.js",
   "scripts": {
-    "start": "node -r esm src/index.js",
+    "start": "nodemon -r esm src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,8 @@
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "firebase-admin": "^8.9.1",
+    "moment": "^2.24.0",
+    "papaparse": "^5.1.1",
     "uuidv4": "^6.0.0"
   }
 }

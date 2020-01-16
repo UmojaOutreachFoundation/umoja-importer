@@ -1,3 +1,6 @@
+/*
+ * Initializes Firebase.
+ */
 var admin = require('firebase-admin');
 var serviceAccount = require('../../umoja-key.json');
 
